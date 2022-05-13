@@ -1,2 +1,12 @@
 /* @import "~bootstrap/scss/bootstrap"; */
 
+main .movie-card-wrapper {
+  gap: 1rem 2rem;
+  justify-content: center;
+}
+
+main .movie-card-wrapper img {
+  height: 200px;
+  padding: 2rem 0;
+}
+
