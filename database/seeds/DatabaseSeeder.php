@@ -12,5 +12,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         factory(App\Movie::class,10)->create();
+        /* 
+
+            php artisan make:seeder UserSeeder 
+            php artisan db:seed call the seeders
+            php artisan db:seed --class=UserSeeder call the specifi seeder
+            
+        */
     }
 }
