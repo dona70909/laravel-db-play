@@ -12,7 +12,7 @@ $factory->define(Movie::class, function (Faker $faker) {
         'genre' => $faker->text,
         'language' => $faker->text,
         'vote' => $faker->numberBetween(1,5),
-        'cover' => $faker->imageUrl($width = 640, $height = 480),
+        'cover' => "https://picsum.photos/1200/350?random=". rand(1, 55000),
         
     ];
 });
