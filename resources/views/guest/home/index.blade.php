@@ -9,3 +9,7 @@
 @section('main-content')
     @include('partials.main.main_cards')
 @endsection
+
+@section('content')
+    <example-component></example-component>
+@endsection
