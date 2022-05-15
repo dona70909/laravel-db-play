@@ -6,11 +6,9 @@
                 <div class="card-body">
                     
                     <p class="card-text">{{movie.title}}</p>
-                    <h5 class="card-title">Vote: {{ movie.vote}}</h5>
-                    <p class="text-red-bd d-inline-block me-1">Vote:</p>
-                    <i  v-for="(star,index) in starVote(movie.vote)" :key="index + 'full'" class="bi bi-star-fill"></i>
-                    <i  v-for="(starEmpty,index) in emptyStars(movie.vote)" :key="index + 'empty'" class="bi bi-star"></i>   
-                    
+                    <p class="card-title d-inline">Vote: </p>
+                    <i  v-for="(star,index) in starVote(movie.vote)" :key="index + 'full'" class="bi bi-star-fill d-inline"></i>
+                    <i  v-for="(starEmpty,index) in emptyStars(movie.vote)" :key="index + 'empty'" class="bi bi-star d-inline"></i>   
                 </div>
             </div>
         </div>

@@ -24,8 +24,13 @@ main {
         justify-content: center;
 
         .card {
+            
             img {
                 padding: 1rem 0;
+            }
+
+            .card-text{
+                padding: 0;
             }
         }
     }

@@ -16784,3 +16784,6 @@ main .movie-card-wrapper {
 main .movie-card-wrapper .card img {
   padding: 1rem 0;
 }
+main .movie-card-wrapper .card .card-text {
+  padding: 0;
+}
