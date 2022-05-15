@@ -1,6 +1,6 @@
 <main>
     @yield('main-content')
-    <div id="id">
+    <div id="app">
         @yield('content')
     </div>
 </main>
