@@ -1,5 +1,5 @@
 <main>
-    @yield('main-content')
+    {{-- @yield('main-content') --}}
     <div id="app">
         @yield('content')
     </div>

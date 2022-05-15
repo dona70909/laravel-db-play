@@ -1923,8 +1923,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['movies'],
   mounted: function mounted() {
     console.log('Component mounted.');
   }
@@ -37518,32 +37518,33 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component"),
+  return _c("section", { staticClass: "container-fluid" }, [
+    _c(
+      "div",
+      { staticClass: "row d-flex movie-card-wrapper" },
+      _vm._l(_vm.movies, function (movie, index) {
+        return _c("div", { key: index, staticClass: "card col-2" }, [
+          _c("img", {
+            staticClass: "card-img-top",
+            attrs: { src: movie.cover, alt: "Card image cap" },
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("p", { staticClass: "card-text" }, [
+              _vm._v(_vm._s(movie.title)),
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              ),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Vote: " + _vm._s(movie.vote)),
             ]),
           ]),
-        ]),
-      ]),
-    ])
-  },
-]
+        ])
+      }),
+      0
+    ),
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
