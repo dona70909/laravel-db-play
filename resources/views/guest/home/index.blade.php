@@ -6,10 +6,7 @@
     @include('partials.header.header_nav')
 @endsection
 
-{{-- @section('main-content')
-    @include('partials.main.main_cards')
-@endsection --}}
 
 @section('content')
-    <example-component :movies ="{{ $movies }}"></example-component>
+    <cards-component :movies ="{{ $movies }}"></cards-component>
 @endsection
