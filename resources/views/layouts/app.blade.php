@@ -11,7 +11,9 @@
     <title>Movies - @yield('title')</title>
 </head>
 <body>
-    @include('partials.header.header')
-    @include('partials.main.main')
+    <div id="app">
+        @include('partials.header.header')
+        @include('partials.main.main')
+    </div>
 </body>
 </html>
