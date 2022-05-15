@@ -6,6 +6,9 @@
 
 require('./bootstrap');
 
+
+
+import 'bootstrap-icons/font/bootstrap-icons.css';
 window.Vue = require('vue');
 /* import { createApp } from 'vue';
 import App from './App.vue'; */

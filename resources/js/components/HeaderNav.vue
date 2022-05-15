@@ -4,6 +4,7 @@
             <div class="col-12 d-flex align-items-baseline">
                 <h1 class="me-5">The movie DB</h1>
                 <a class="text-dark text-decoration-none" :href="home"> Home </a>
+              
             </div>
         </div>
     </section>
@@ -18,7 +19,7 @@
         },
         mounted() {
             
-            console.log('Component mounted.')
+            console.log("mounted");
         }
     }
 </script>

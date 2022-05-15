@@ -6,6 +6,7 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons';
 
 header {
     h1 {
@@ -14,5 +15,18 @@ header {
 
     a {
         cursor: pointer;
+    }
+}
+
+main {
+    .movie-card-wrapper {
+        gap:1rem;
+        justify-content: center;
+
+        .card {
+            img {
+                padding: 1rem 0;
+            }
+        }
     }
 }
