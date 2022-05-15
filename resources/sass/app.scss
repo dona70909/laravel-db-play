@@ -6,3 +6,13 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+header {
+    h1 {
+        margin-right: 2rem;
+    }
+
+    a {
+        cursor: pointer;
+    }
+}

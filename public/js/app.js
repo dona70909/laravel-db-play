@@ -37602,7 +37602,7 @@ var render = function () {
   return _c("section", { staticClass: "container-fluid" }, [
     _c("div", { staticClass: "row p-4" }, [
       _c("div", { staticClass: "col-12 d-flex align-items-baseline" }, [
-        _c("h1", { staticClass: "me-4" }, [_vm._v("The movie DB")]),
+        _c("h1", { staticClass: "me-5" }, [_vm._v("The movie DB")]),
         _vm._v(" "),
         _c(
           "a",
@@ -37610,7 +37610,7 @@ var render = function () {
             staticClass: "text-dark text-decoration-none",
             attrs: { href: _vm.home },
           },
-          [_c("h4", [_vm._v("Home")])]
+          [_vm._v(" Home ")]
         ),
       ]),
     ]),
@@ -49849,6 +49849,16 @@ module.exports = function(module) {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* import { createApp } from 'vue';
+import App from './App.vue'; */
+
+/* const routes = [
+    {path: 'guest.home.index', component: header-nav-component},
+];
+
+const router = new VueRouter({routes});
+export default router; */
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

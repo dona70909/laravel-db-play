@@ -7,6 +7,16 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+/* import { createApp } from 'vue';
+import App from './App.vue'; */
+
+
+/* const routes = [
+    {path: 'guest.home.index', component: header-nav-component},
+];
+
+const router = new VueRouter({routes});
+export default router; */ 
 
 /**
  * The following block of code may be used to automatically register your

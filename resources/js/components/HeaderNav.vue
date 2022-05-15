@@ -2,8 +2,8 @@
     <section class="container-fluid">
         <div class="row p-4">
             <div class="col-12 d-flex align-items-baseline">
-                <h1 class="me-4">The movie DB</h1>
-                <a class="text-dark text-decoration-none" :href="home" ><h4>Home</h4></a>
+                <h1 class="me-5">The movie DB</h1>
+                <a class="text-dark text-decoration-none" :href="home"> Home </a>
             </div>
         </div>
     </section>
@@ -22,3 +22,4 @@
         }
     }
 </script>
+
