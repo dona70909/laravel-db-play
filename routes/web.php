@@ -16,3 +16,8 @@ use App\Movie;
 */
 
 Route::get('/',[MovieController::class , 'index'])->name('home');
+
+Route::post('store-form','MovieController@insert');
+
+Route::get('/form','MovieController@show',function () {
+});

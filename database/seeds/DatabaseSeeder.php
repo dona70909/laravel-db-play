@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Movie::class,10)->create();
+        factory(App\Movie::class,50)->create();
         /* 
 
             php artisan make:seeder UserSeeder 

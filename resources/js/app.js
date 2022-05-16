@@ -7,6 +7,8 @@ window.Vue = require('vue');
 /* vue Components */
 Vue.component('cards-component', require('./components/Cards.vue').default);
 Vue.component('header-nav-component', require('./components/HeaderNav.vue').default);
+Vue.component('insert-component', require('./components/InsertCard.vue').default);
+
 
 
 

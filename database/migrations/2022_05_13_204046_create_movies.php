@@ -19,6 +19,7 @@ class CreateMovies extends Migration
             $table->string('genre');
             $table->string('language');
             $table->tinyInteger('vote');
+            $table->string('cover');
             $table->timestamps();
         });
     }
