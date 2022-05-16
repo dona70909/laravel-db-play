@@ -7,6 +7,5 @@
 @endsection
 
 @section('main-content')
-    @csrf
     <insert-component></insert-component>
 @endsection
