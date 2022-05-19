@@ -21,3 +21,7 @@ Route::post('store-form','MovieController@insert');
 
 Route::get('/form','MovieController@show',function () {
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
