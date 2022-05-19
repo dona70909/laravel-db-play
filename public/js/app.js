@@ -1979,11 +1979,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "header-nav-component",
   data: {
     home: "{{route('guest.home.index')}}",
-    login: "{{route('login')}}"
+    login: "{{route('login')}}",
+    register: "{{route('register')}}"
   },
   mounted: function mounted() {
     console.log("mounted");
@@ -37734,7 +37736,7 @@ var staticRenderFns = [
           _c(
             "a",
             {
-              staticClass: "text-dark text-decoration-none",
+              staticClass: "text-dark text-decoration-none mx-2",
               attrs: { href: "/form" },
             },
             [_vm._v(" Insert Card ")]
@@ -37743,10 +37745,19 @@ var staticRenderFns = [
           _c(
             "a",
             {
-              staticClass: "text-dark text-decoration-none",
+              staticClass: "text-dark text-decoration-none mx-2",
               attrs: { href: "login" },
             },
             [_vm._v(" Login ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-dark text-decoration-none mx-2",
+              attrs: { href: "register" },
+            },
+            [_vm._v(" Register ")]
           ),
         ]),
       ]),
